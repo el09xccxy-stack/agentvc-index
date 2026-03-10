@@ -1,62 +1,135 @@
-# AgentVC Index — OSS Deal Cases
+# 🔭 AgentVC Index — OSS Investment Case Database
 
-> A public, versioned database of open-source project investment evaluations scored via the **OSS Investment Scorecard v1.1** framework.
+> Curated by **Lucy Chen** · [linkedin.com/in/lucycxy](https://linkedin.com/in/lucycxy)  
+> Framework: [OSS Investment Scorecard v1.1](https://github.com/el09xccxy-stack/oss-investment-scorecard)  
+> GitHub Org: [github.com/el09xccxy-stack/agentvc-index](https://github.com/el09xccxy-stack/agentvc-index)
 
 ---
 
-## Purpose
-
-This repository tracks structured investment case analyses for open-source projects across the AI/agent infrastructure space. Each case is scored across five dimensions and assigned a verdict for investment consideration.
-
-## Scoring Framework
-
-Each project is evaluated on the **OSS Investment Scorecard v1.1** — a 5-dimension weighted scoring model:
+## 📐 Scoring Framework
 
 | Dimension | Weight | Description |
 |---|---|---|
-| **A. Open-Source Ecosystem** | 25% | Stars, forks, contributors, release cadence, external adoption |
-| **B. Team & Globalisation** | 20% | Team quality, English-first docs, global GTM signals |
-| **C. Technical Moat** | 20% | Defensibility, protocol depth, non-trivial architecture |
-| **D. Commercialisation & PMF** | 20% | ARR signals, enterprise deployments, paying customers |
-| **E. Exit Path** | 15% | M&A thesis plausibility, strategic buyer landscape |
+| **A · Ecosystem Health** | 25% | Stars velocity, contributor diversity, governance |
+| **B · Team** | 20% | Independence, domain depth, full-time commitment |
+| **C · Tech Moat** | 20% | Defensibility, systems complexity, IP |
+| **D · PMF** | 20% | Customer pull, revenue signal, market timing |
+| **E · Exit** | 15% | Acquirer landscape, comp set, structure |
 
-### Verdict Tiers
-
-| Score | Verdict |
-|---|---|
-| 8.0 – 10.0 | 🟢 Strongly Recommend |
-| 6.5 – 7.9 | 🟡 Recommend with Conditions |
-| 5.0 – 6.4 | 🟠 Watch / Track |
-| < 5.0 | 🔴 Pass |
+**Thresholds:** 🟢 8.5+ Invest · 🟡 7.0–8.4 Yellow · 🟠 5.5–6.9 Watch · 🔴 <5.5 Pass  
+**Benchmarks:** vLLM / Inferact = 8.9 · HuggingFace = 8.35
 
 ---
 
-## Case Index
+## 📊 Case Index
 
-### 2026-W10 (2026-03-08)
+### Week of 2026-03-08
 
-| Project | Score | Verdict | Case File |
+```mermaid
+xychart-beta
+    title "OSS Investment Scores — 2026-W10"
+    x-axis ["deer-flow", "agentscope", "LMCache", "hermes-agent", "AReaL"]
+    y-axis "Weighted Score" 0 --> 10
+    bar [6.15, 6.73, 7.78, 6.30, 7.23]
+```
+
+```mermaid
+quadrantChart
+    title Potential vs. Independence Risk (2026-W10)
+    x-axis Low Independence --> High Independence
+    y-axis Low Potential --> High Potential
+    quadrant-1 Invest Track
+    quadrant-2 Watch & Verify
+    quadrant-3 Pass
+    quadrant-4 Corp Asset
+    LMCache: [0.82, 0.82]
+    AReaL: [0.65, 0.76]
+    agentscope: [0.52, 0.68]
+    hermes-agent: [0.75, 0.60]
+    deer-flow: [0.15, 0.58]
+```
+
+---
+
+## 📋 Evaluated Projects (Community Submissions)
+
+| Project | Score | Verdict | Submitted by | Date |
+|---|---|---|---|---|
+| [vLLM / Inferact](https://github.com/vllm-project/vllm) | 8.9/10 | 🟢 Strongly Recommend | @lucycxy | 2026-03 |
+| [HuggingFace](https://github.com/huggingface/transformers) | 8.35/10 | 🟢 Strongly Recommend | @lucycxy | 2026-03 |
+| [LMCache/LMCache](cases/2026-03-08_lmcache.md) | 7.78/10 | 🟡 Yellow | @lucycxy | 2026-03 |
+| [inclusionAI/AReaL](cases/2026-03-08_areal.md) | 7.23/10 | 🟡 Yellow | @lucycxy | 2026-03 |
+| [agentscope-ai/agentscope](cases/2026-03-08_agentscope.md) | 6.73/10 | 🟠 Watch | @lucycxy | 2026-03 |
+| [NousResearch/hermes-agent](cases/2026-03-08_hermes-agent.md) | 6.30/10 | 🟠 Watch | @lucycxy | 2026-03 |
+| [bytedance/deer-flow](cases/2026-03-08_deer-flow.md) | 6.15/10 | 🟠 Watch ⚠️ Corp | @lucycxy | 2026-03 |
+| *(your project here)* | | | | |
+
+*This table is updated as community submissions are reviewed. [Submit yours →](https://github.com/el09xccxy-stack/agentvc-index/issues/new)*
+
+---
+
+### Dimension Breakdown Heatmap
+
+```mermaid
+%%{init: {"theme": "base"}}%%
+xychart-beta
+    title "A: Ecosystem Health (weight 25%)"
+    x-axis ["deer-flow", "agentscope", "LMCache", "hermes-agent", "AReaL"]
+    y-axis 0 --> 10
+    bar [7.0, 7.0, 7.5, 6.5, 7.5]
+```
+
+```mermaid
+xychart-beta
+    title "C: Tech Moat (weight 20%)"
+    x-axis ["deer-flow", "agentscope", "LMCache", "hermes-agent", "AReaL"]
+    y-axis 0 --> 10
+    bar [6.5, 6.5, 8.0, 6.0, 7.0]
+```
+
+```mermaid
+xychart-beta
+    title "E: Exit Potential (weight 15%)"
+    x-axis ["deer-flow", "agentscope", "LMCache", "hermes-agent", "AReaL"]
+    y-axis 0 --> 10
+    bar [4.0, 6.5, 8.0, 6.5, 7.0]
+```
+
+---
+
+### Full Dimension Table
+
+| Project | A (25%) | B (20%) | C (20%) | D (20%) | E (15%) | **Total** |
+|---|---|---|---|---|---|---|
+| deer-flow | 7.0 | 6.5 | 6.5 | 6.0 | 4.0 | **6.15** |
+| agentscope | 7.0 | 6.5 | 6.5 | 7.0 | 6.5 | **6.73** |
+| LMCache | 7.5 | 7.5 | 8.0 | 8.0 | 8.0 | **7.78** |
+| hermes-agent | 6.5 | 7.0 | 6.0 | 5.5 | 6.5 | **6.30** |
+| AReaL | 7.5 | 7.0 | 7.0 | 7.5 | 7.0 | **7.23** |
+
+---
+
+## 🗂 Repo Structure
+
+```
+agentvc-index/
+├── README.md          ← this file (auto-updated weekly)
+└── cases/
+    ├── 2026-03-08_deer-flow.md
+    ├── 2026-03-08_agentscope.md
+    ├── 2026-03-08_lmcache.md
+    ├── 2026-03-08_hermes-agent.md
+    └── 2026-03-08_areal.md
+```
+
+---
+
+## 📅 Archive
+
+| Week | Projects Scored | Yellow+ | New This Week |
 |---|---|---|---|
-| DeerFlow | — | — | [2026-03-08_deer-flow.md](cases/2026-03-08_deer-flow.md) |
-| AgentScope | — | — | [2026-03-08_agentscope.md](cases/2026-03-08_agentscope.md) |
-| LMCache | — | — | [2026-03-08_lmcache.md](cases/2026-03-08_lmcache.md) |
-| Hermes Agent | — | — | [2026-03-08_hermes-agent.md](cases/2026-03-08_hermes-agent.md) |
-| Areal | — | — | [2026-03-08_areal.md](cases/2026-03-08_areal.md) |
+| [2026-W10 (Mar 8)](cases/) | 5 | 2 (LMCache, AReaL) | deer-flow, agentscope, LMCache, hermes-agent, AReaL |
 
 ---
 
-## File Naming Convention
-
-```
-cases/YYYY-MM-DD_project-slug.md
-```
-
----
-
-## Contributing
-
-Cases are generated and reviewed internally. Each file follows the OSS Investment Scorecard v1.1 template. External submissions may be accepted via the companion repository [oss-investment-scorecard](https://github.com/el09xccxy-stack/oss-investment-scorecard).
-
----
-
-*Maintained by the AgentVC Index team · Last updated: March 2026*
+*AgentVC Index · OSS Investment Scorecard v1.1 · Curated by Lucy Chen · [linkedin.com/in/lucycxy](https://linkedin.com/in/lucycxy)*
