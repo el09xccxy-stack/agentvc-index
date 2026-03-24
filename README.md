@@ -23,32 +23,25 @@
 
 ## 📊 Case Index
 
-### Week of 2026-03-08
+### Week of 2026-03-23 (W13)
 
-```mermaid
-xychart-beta
-    title "OSS Investment Scores — 2026-W10"
-    x-axis ["deer-flow", "agentscope", "LMCache", "hermes-agent", "AReaL"]
-    y-axis "Weighted Score" 0 --> 10
-    bar [6.15, 6.73, 7.78, 6.30, 7.23]
-```
+| Project | Score | Verdict | Case File |
+|---|---|---|---|
+| Unsloth | **8.10** | 🟡 Yellow (Strong) | [→](cases/2026-03-23_unsloth.md) |
+| Hindsight | **7.55** | 🟡 Yellow | [→](cases/2026-03-23_hindsight.md) |
+| DeepAgents | **7.45** | 🟡 Yellow | [→](cases/2026-03-23_deepagents.md) |
+| TradingAgents | **6.35** | 🟠 Watch | [→](cases/2026-03-23_tradingagents.md) |
+| MiroFish | **5.54** | 🟠 Watch | [→](cases/2026-03-23_mirofish.md) |
 
-```mermaid
-quadrantChart
-    title Potential vs. Independence Risk (2026-W10)
-    x-axis Low Independence --> High Independence
-    y-axis Low Potential --> High Potential
-    quadrant-1 Invest Track
-    quadrant-2 Watch & Verify
-    quadrant-3 Pass
-    quadrant-4 Corp Asset
-    LMCache: [0.82, 0.82]
-    AReaL: [0.65, 0.76]
-    agentscope: [0.52, 0.68]
-    hermes-agent: [0.75, 0.60]
-    deer-flow: [0.15, 0.58]
-```
+### Week of 2026-03-08 (W10)
 
+| Project | Score | Verdict | Case File |
+|---|---|---|---|
+| LMCache | **7.78** | 🟡 Yellow | [→](cases/2026-03-08_lmcache.md) |
+| AReaL | **7.23** | 🟡 Yellow | [→](cases/2026-03-08_areal.md) |
+| AgentScope | **6.73** | 🟠 Watch | [→](cases/2026-03-08_agentscope.md) |
+| Hermes Agent | **6.30** | 🟠 Watch | [→](cases/2026-03-08_hermes-agent.md) |
+| DeerFlow | **6.15** | 🟠 Watch ⚠️ Corp | [→](cases/2026-03-08_deer-flow.md) |
 ---
 
 ## 📋 Evaluated Projects (Community Submissions)
