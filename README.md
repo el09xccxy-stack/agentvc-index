@@ -25,6 +25,30 @@
 
 ### Week of 2026-03-23 (W13)
 
+```mermaid
+xychart-beta
+    title "OSS Investment Scores — 2026-W13"
+    x-axis ["Unsloth", "Hindsight", "DeepAgents", "TradingAgents", "MiroFish"]
+    y-axis "Weighted Score" 0 --> 10
+    bar [8.10, 7.55, 7.45, 6.35, 5.54]
+```
+
+```mermaid
+quadrantChart
+    title Potential vs. Independence Risk (2026-W13)
+    x-axis Low Independence --> High Independence
+    y-axis Low Potential --> High Potential
+    quadrant-1 Invest Track
+    quadrant-2 Watch & Verify
+    quadrant-3 Pass
+    quadrant-4 Corp Asset
+    Unsloth: [0.88, 0.85]
+    Hindsight: [0.80, 0.78]
+    DeepAgents: [0.55, 0.76]
+    TradingAgents: [0.72, 0.62]
+    MiroFish: [0.60, 0.52]
+```
+
 | Project | Score | Verdict | Case File |
 |---|---|---|---|
 | Unsloth | **8.10** | 🟡 Yellow (Strong) | [→](cases/2026-03-23_unsloth.md) |
@@ -33,7 +57,52 @@
 | TradingAgents | **6.35** | 🟠 Watch | [→](cases/2026-03-23_tradingagents.md) |
 | MiroFish | **5.54** | 🟠 Watch | [→](cases/2026-03-23_mirofish.md) |
 
+#### W13 Dimension Breakdown
+
+| Project | A (25%) | B (20%) | C (20%) | D (20%) | E (15%) | **Total** |
+|---|---|---|---|---|---|---|
+| Unsloth | 8.5 | 7.5 | 8.0 | 8.5 | 7.5 | **8.10** |
+| Hindsight | 7.0 | 7.5 | 8.0 | 7.5 | 7.5 | **7.55** |
+| DeepAgents | 7.5 | 8.0 | 6.0 | 7.5 | 8.0 | **7.45** |
+| TradingAgents | 6.5 | 5.5 | 7.0 | 6.0 | 6.0 | **6.35** |
+| MiroFish | 6.5 | 4.5 | 5.0 | 5.5 | 6.0 | **5.54** |
+
+#### W13 Portfolio Actions
+
+**Immediate Follow (Yellow):**
+- **Unsloth** — Request Series A participation. Funding anomaly ($500K seed vs 57K stars / 150M downloads) needs DD. If raising at <$100M, attractive.
+- **Hindsight** — Engage Chris Latimer (Vectorize.io). Revenue traction + technical moat + infrastructure positioning = textbook OSS investment.
+- **DeepAgents** — Track as LangChain company play, not standalone.
+
+**Watch List:**
+- **TradingAgents** — Revisit when Terminal launches and live performance data available.
+- **MiroFish** — Revisit in 60 days. Monitor team expansion and prediction accuracy validation.
+
 ### Week of 2026-03-08 (W10)
+
+```mermaid
+xychart-beta
+    title "OSS Investment Scores — 2026-W10"
+    x-axis ["deer-flow", "agentscope", "LMCache", "hermes-agent", "AReaL"]
+    y-axis "Weighted Score" 0 --> 10
+    bar [6.15, 6.73, 7.78, 6.30, 7.23]
+```
+
+```mermaid
+quadrantChart
+    title Potential vs. Independence Risk (2026-W10)
+    x-axis Low Independence --> High Independence
+    y-axis Low Potential --> High Potential
+    quadrant-1 Invest Track
+    quadrant-2 Watch & Verify
+    quadrant-3 Pass
+    quadrant-4 Corp Asset
+    LMCache: [0.82, 0.82]
+    AReaL: [0.65, 0.76]
+    agentscope: [0.52, 0.68]
+    hermes-agent: [0.75, 0.60]
+    deer-flow: [0.15, 0.58]
+```
 
 | Project | Score | Verdict | Case File |
 |---|---|---|---|
@@ -42,55 +111,8 @@
 | AgentScope | **6.73** | 🟠 Watch | [→](cases/2026-03-08_agentscope.md) |
 | Hermes Agent | **6.30** | 🟠 Watch | [→](cases/2026-03-08_hermes-agent.md) |
 | DeerFlow | **6.15** | 🟠 Watch ⚠️ Corp | [→](cases/2026-03-08_deer-flow.md) |
----
 
-## 📋 Evaluated Projects (Community Submissions)
-
-| Project | Score | Verdict | Submitted by | Date |
-|---|---|---|---|---|
-| [vLLM / Inferact](https://github.com/vllm-project/vllm) | 8.9/10 | 🟢 Strongly Recommend | @lucycxy | 2026-03 |
-| [HuggingFace](https://github.com/huggingface/transformers) | 8.35/10 | 🟢 Strongly Recommend | @lucycxy | 2026-03 |
-| [LMCache/LMCache](cases/2026-03-08_lmcache.md) | 7.78/10 | 🟡 Yellow | @lucycxy | 2026-03 |
-| [inclusionAI/AReaL](cases/2026-03-08_areal.md) | 7.23/10 | 🟡 Yellow | @lucycxy | 2026-03 |
-| [agentscope-ai/agentscope](cases/2026-03-08_agentscope.md) | 6.73/10 | 🟠 Watch | @lucycxy | 2026-03 |
-| [NousResearch/hermes-agent](cases/2026-03-08_hermes-agent.md) | 6.30/10 | 🟠 Watch | @lucycxy | 2026-03 |
-| [bytedance/deer-flow](cases/2026-03-08_deer-flow.md) | 6.15/10 | 🟠 Watch ⚠️ Corp | @lucycxy | 2026-03 |
-| *(your project here)* | | | | |
-
-*This table is updated as community submissions are reviewed. [Submit yours →](https://github.com/el09xccxy-stack/agentvc-index/issues/new)*
-
----
-
-### Dimension Breakdown Heatmap
-
-```mermaid
-%%{init: {"theme": "base"}}%%
-xychart-beta
-    title "A: Ecosystem Health (weight 25%)"
-    x-axis ["deer-flow", "agentscope", "LMCache", "hermes-agent", "AReaL"]
-    y-axis 0 --> 10
-    bar [7.0, 7.0, 7.5, 6.5, 7.5]
-```
-
-```mermaid
-xychart-beta
-    title "C: Tech Moat (weight 20%)"
-    x-axis ["deer-flow", "agentscope", "LMCache", "hermes-agent", "AReaL"]
-    y-axis 0 --> 10
-    bar [6.5, 6.5, 8.0, 6.0, 7.0]
-```
-
-```mermaid
-xychart-beta
-    title "E: Exit Potential (weight 15%)"
-    x-axis ["deer-flow", "agentscope", "LMCache", "hermes-agent", "AReaL"]
-    y-axis 0 --> 10
-    bar [4.0, 6.5, 8.0, 6.5, 7.0]
-```
-
----
-
-### Full Dimension Table
+#### W10 Dimension Breakdown
 
 | Project | A (25%) | B (20%) | C (20%) | D (20%) | E (15%) | **Total** |
 |---|---|---|---|---|---|---|
@@ -102,27 +124,30 @@ xychart-beta
 
 ---
 
-## 🗂 Repo Structure
+## 📁 All Evaluated Projects (Cumulative)
 
-```
-agentvc-index/
-├── README.md          ← this file (auto-updated weekly)
-└── cases/
-    ├── 2026-03-08_deer-flow.md
-    ├── 2026-03-08_agentscope.md
-    ├── 2026-03-08_lmcache.md
-    ├── 2026-03-08_hermes-agent.md
-    └── 2026-03-08_areal.md
+```mermaid
+xychart-beta
+    title "OSS Investment Scores — All Evaluated Projects"
+    x-axis ["Unsloth", "LMCache", "Hindsight", "DeepAgents", "AReaL", "agentscope", "TradingAgents", "hermes-agent", "deer-flow", "MiroFish"]
+    y-axis "Weighted Score" 0 --> 10
+    bar [8.10, 7.78, 7.55, 7.45, 7.23, 6.73, 6.35, 6.30, 6.15, 5.54]
 ```
 
 ---
 
-## 📅 Archive
+## 📝 File Naming Convention
 
-| Week | Projects Scored | Yellow+ | New This Week |
-|---|---|---|---|
-| [2026-W10 (Mar 8)](cases/) | 5 | 2 (LMCache, AReaL) | deer-flow, agentscope, LMCache, hermes-agent, AReaL |
+```
+cases/YYYY-MM-DD_project-slug.md
+```
 
 ---
 
-*AgentVC Index · OSS Investment Scorecard v1.1 · Curated by Lucy Chen · [linkedin.com/in/lucycxy](https://linkedin.com/in/lucycxy)*
+## 🤝 Contributing
+
+Cases are generated and reviewed internally. Each file follows the OSS Investment Scorecard v1.1 template. External submissions may be accepted via the companion repository [oss-investment-scorecard](https://github.com/el09xccxy-stack/oss-investment-scorecard).
+
+---
+
+*Maintained by Lucy Chen · [Zoo Capital](https://zoocap.com) · Last updated: 2026-03-23 (W13)*
