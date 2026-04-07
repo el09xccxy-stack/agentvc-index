@@ -28,9 +28,9 @@
 ```mermaid
 xychart-beta
     title "OSS Investment Scores — 2026-W13"
-    x-axis ["Unsloth", "Hindsight", "DeepAgents", "TradingAgents", "MiroFish"]
+    x-axis ["Unsloth", "Hindsight", "DeepAgents", "TradingAgents", "MiroFish", "Aryn"]
     y-axis "Weighted Score" 0 --> 10
-    bar [8.10, 7.55, 7.45, 6.35, 5.54]
+    bar [8.10, 7.55, 7.45, 6.35, 5.54, 5.13]
 ```
 
 ```mermaid
@@ -47,6 +47,7 @@ quadrantChart
     DeepAgents: [0.55, 0.76]
     TradingAgents: [0.72, 0.62]
     MiroFish: [0.60, 0.52]
+    Aryn: [0.45, 0.51]
 ```
 
 | Project | Score | Verdict | Case File |
@@ -131,9 +132,9 @@ quadrantChart
 ```mermaid
 xychart-beta
     title "OSS Investment Scores — All Evaluated Projects"
-    x-axis ["Unsloth", "LMCache", "Hindsight", "DeepAgents", "AReaL", "agentscope", "TradingAgents", "hermes-agent", "deer-flow", "MiroFish"]
+    x-axis ["Unsloth", "LMCache", "Hindsight", "DeepAgents", "AReaL", "AgentScope", "TradingAgents", "Hermes", "DeerFlow", "MiroFish", "Aryn"]
     y-axis "Weighted Score" 0 --> 10
-    bar [8.10, 7.78, 7.55, 7.45, 7.23, 6.73, 6.35, 6.30, 6.15, 5.54]
+    bar [8.10, 7.78, 7.55, 7.45, 7.23, 6.73, 6.35, 6.30, 6.15, 5.54, 5.13]
 ```
 
 ---
