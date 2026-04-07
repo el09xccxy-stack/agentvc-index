@@ -56,6 +56,7 @@ quadrantChart
 | DeepAgents | **7.45** | 🟡 Yellow | [→](cases/2026-03-23_deepagents.md) |
 | TradingAgents | **6.35** | 🟠 Watch | [→](cases/2026-03-23_tradingagents.md) |
 | MiroFish | **5.54** | 🟠 Watch | [→](cases/2026-03-23_mirofish.md) |
+| Aryn / Sycamore | **5.13** | 🔴 Pass | [→](cases/aryn-sycamore-retrograde-W13.md) |
 
 #### W13 Dimension Breakdown
 
@@ -66,6 +67,7 @@ quadrantChart
 | DeepAgents | 7.5 | 8.0 | 6.0 | 7.5 | 8.0 | **7.45** |
 | TradingAgents | 6.5 | 5.5 | 7.0 | 6.0 | 6.0 | **6.35** |
 | MiroFish | 6.5 | 4.5 | 5.0 | 5.5 | 6.0 | **5.54** |
+| Aryn / Sycamore | 3.0 | 7.5 | 6.0 | 3.5 | 6.5 | **5.13** |
 
 #### W13 Portfolio Actions
 
@@ -150,4 +152,4 @@ Cases are generated and reviewed internally. Each file follows the OSS Investmen
 
 ---
 
-*Maintained by Lucy Chen · [Zoo Capital](https://zoocap.com) · Last updated: 2026-03-23 (W13)*
+*Maintained by Lucy Chen · [Zoo Capital](https://zoocap.com) · Last updated: 2026-04-07 (W13 v1.1)*
