@@ -25,30 +25,32 @@
 
 ### Week of 2026-03-23 (W13)
 
-```mermaid
-xychart-beta
-    title "OSS Investment Scores — 2026-W13"
-    x-axis ["Unsloth", "Hindsight", "DeepAgents", "TradingAgents", "MiroFish", "Aryn"]
-    y-axis "Weighted Score" 0 --> 10
-    bar [8.10, 7.55, 7.45, 6.35, 5.54, 5.13]
-```
+| Project | Score | Visual (0-10) |
+|:---|:---:|:---|
+| **Unsloth** | **8.10** | `████████████████░░░░` |
+| **Hindsight** | **7.55** | `███████████████░░░░░` |
+| **DeepAgents** | **7.45** | `███████████████░░░░░` |
+| **TradingAgents** | **6.35** | `█████████████░░░░░░░` |
+| **MiroFish** | **5.54** | `███████████░░░░░░░░░` |
+| **Aryn / Sycamore** | **5.13** | `██████████░░░░░░░░░░` |
 
 ```mermaid
 quadrantChart
-    title Potential vs. Independence Risk (2026-W13)
-    x-axis Low Independence --> High Independence
-    y-axis Low Potential --> High Potential
-    quadrant-1 Invest Track
-    quadrant-2 Watch & Verify
-    quadrant-3 Pass
-    quadrant-4 Corp Asset
-    Unsloth: [0.88, 0.85]
-    Hindsight: [0.80, 0.78]
-    DeepAgents: [0.55, 0.76]
-    TradingAgents: [0.72, 0.62]
-    MiroFish: [0.60, 0.52]
-    Aryn: [0.45, 0.51]
+    title "Potential vs. Independence Risk (W13 Numbered)"
+    x-axis "Low Independence" --> "High Independence"
+    y-axis "Low Potential" --> "High Potential"
+    quadrant-1 "Invest Track"
+    quadrant-2 "Watch & Verify"
+    quadrant-3 "Pass"
+    quadrant-4 "Corp Asset"
+    "1": [0.88, 0.85]
+    "2": [0.80, 0.78]
+    "3": [0.55, 0.76]
+    "4": [0.72, 0.62]
+    "5": [0.60, 0.52]
+    "6": [0.45, 0.51]
 ```
+**Legend:** 1. Unsloth | 2. Hindsight | 3. DeepAgents | 4. TradingAgents | 5. MiroFish | 6. Aryn
 
 | Project | Score | Verdict | Case File |
 |---|---|---|---|
@@ -129,13 +131,19 @@ quadrantChart
 
 ## 📁 All Evaluated Projects (Cumulative)
 
-```mermaid
-xychart-beta
-    title "OSS Investment Scores — All Evaluated Projects"
-    x-axis ["Unsloth", "LMCache", "Hindsight", "DeepAgents", "AReaL", "AgentScope", "TradingAgents", "Hermes", "DeerFlow", "MiroFish", "Aryn"]
-    y-axis "Weighted Score" 0 --> 10
-    bar [8.10, 7.78, 7.55, 7.45, 7.23, 6.73, 6.35, 6.30, 6.15, 5.54, 5.13]
-```
+| Project | Score | Visual (0-10) |
+|:---|:---:|:---|
+| **Unsloth** | **8.10** | `████████████████░░░░` |
+| **LMCache** | **7.78** | `███████████████░░░░░` |
+| **Hindsight** | **7.55** | `███████████████░░░░░` |
+| **DeepAgents** | **7.45** | `███████████████░░░░░` |
+| **AReaL** | **7.23** | `██████████████░░░░░░` |
+| **AgentScope** | **6.73** | `█████████████░░░░░░░` |
+| **TradingAgents** | **6.35** | `█████████████░░░░░░░` |
+| **Hermes Agent** | **6.30** | `█████████████░░░░░░░` |
+| **DeerFlow** | **6.15** | `████████████░░░░░░░░` |
+| **MiroFish** | **5.54** | `███████████░░░░░░░░░` |
+| **Aryn / Sycamore** | **5.13** | `██████████░░░░░░░░░░` |
 
 ---
 
