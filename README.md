@@ -23,12 +23,49 @@
 
 ## 📊 Case Index
 
+### Week of 2026-04-20 (W17)
+
+| Project | Score | Visual (0-10) |
+|:---|:---:|:---|
+| **Infisical Agent Vault** | **7.50** | `███████████████░░░░░` |
+
+```mermaid
+quadrantChart
+    title "Potential vs. Independence Risk (W17 Numbered)"
+    x-axis "Low Independence" --> "High Independence"
+    y-axis "Low Potential" --> "High Potential"
+    quadrant-1 "Invest Track"
+    quadrant-2 "Watch & Verify"
+    quadrant-3 "Pass"
+    quadrant-4 "Corp Asset"
+    "1": [0.78, 0.80]
+```
+**Legend:** 1. Infisical Agent Vault
+
+| Project | Score | Verdict | Case File |
+|---|---|---|---|
+| Infisical Agent Vault | **7.50** | 🟡 Yellow | [→](cases/2026-04-25_agent-vault.md) |
+
+#### W17 Dimension Breakdown
+
+| Project | A (25%) | B (20%) | C (20%) | D (20%) | E (15%) | **Total** |
+|---|---|---|---|---|---|---|
+| Infisical Agent Vault | 4.5 | 9.0 | 8.0 | 8.5 | 8.5 | **7.50** |
+
+#### W17 Portfolio Actions
+
+**Immediate Follow (Yellow):**
+- **Infisical Agent Vault** — Strategic governance layer for AI Agents. High GTM floor via parent company ($1.7M ARR). Monitor for organic developer adoption and production-grade forks.
+
+---
+
 ### Week of 2026-03-23 (W13)
 
 | Project | Score | Visual (0-10) |
 |:---|:---:|:---|
 | **Unsloth** | **8.10** | `████████████████░░░░` |
 | **Hindsight** | **7.55** | `███████████████░░░░░` |
+| **Infisical Agent Vault** | **7.50** | `███████████████░░░░░` |
 | **DeepAgents** | **7.45** | `███████████████░░░░░` |
 | **TradingAgents** | **6.35** | `█████████████░░░░░░░` |
 | **MiroFish** | **5.54** | `███████████░░░░░░░░░` |
@@ -136,6 +173,7 @@ quadrantChart
 | **Unsloth** | **8.10** | `████████████████░░░░` |
 | **LMCache** | **7.78** | `███████████████░░░░░` |
 | **Hindsight** | **7.55** | `███████████████░░░░░` |
+| **Infisical Agent Vault** | **7.50** | `███████████████░░░░░` |
 | **DeepAgents** | **7.45** | `███████████████░░░░░` |
 | **AReaL** | **7.23** | `██████████████░░░░░░` |
 | **AgentScope** | **6.73** | `█████████████░░░░░░░` |
@@ -161,4 +199,4 @@ Cases are generated and reviewed internally. Each file follows the OSS Investmen
 
 ---
 
-*Maintained by Lucy Chen · [Zoo Capital](https://zoocap.com) · Last updated: 2026-04-07 (W13 v1.1)*
+*Maintained by Lucy Chen · [Zoo Capital](https://zoocap.com) · Last updated: 2026-04-25 (W17 v1.2)*
